@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MyLibrary'
-  s.version          = '0.1.1'
+  s.version          = '0.1.3'
   s.summary          = 'This lib is used to check log in your app'
 
 # This description is used to generate tags and improve search results.
