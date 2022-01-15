@@ -16,9 +16,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         let service = ProductService()
         print(service.getAllProducts())
+        service.printLog()
         let frameworkBundle: Bundle = Bundle(for: ProductService.self)
         frameworkBundle.path(forResource: "Resources", ofType: "bundle ")
-        let image  = 
     }
 
     override func didReceiveMemoryWarning() {

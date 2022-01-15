@@ -25,4 +25,13 @@ public final class ProductService: ProductServiceProtocol {
         
         return products
     }
+    
+    public func printLog() {
+        
+        // imagine we fetch products from server
+        let products = [Product(name: "shoe", price: 100), Product(name: "t-shirt", price: 30)]
+        
+        print(products)
+        
+    }
 }
