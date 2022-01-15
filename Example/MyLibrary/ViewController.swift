@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import MyLibrary
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let service = ProductService()
+        print(service.getAllProducts())
+        let frameworkBundle: Bundle = Bundle(for: ProductService.self)
+        frameworkBundle.path(forResource: "Resources", ofType: "bundle ")
+        let image  = 
     }
 
     override func didReceiveMemoryWarning() {
