@@ -22,7 +22,7 @@ pod 'MyLibrary'
 
 ## Author
 
-shantakokateit@gmail.com, shantaram.kokate@gojek.com
+shantakokateit@gmail.com
 
 ## License
 
